@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.541);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        footer{
+            margin: 0px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            background-color: white;
+            margin: 10px;
+            border-radius: 60%;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <H1>Meu site</H1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Essencia DeMolay</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quaerat, perspiciatis cupiditate accusamus vitae mollitia assumenda harum quod ipsam ullam! Aliquid tenetur suscipit, in dolores eligendi natus rerum laudantium beatae.</p>
+                <aside>
+                    <p>Artigo por Fulano</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Gustavo Mafra
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
